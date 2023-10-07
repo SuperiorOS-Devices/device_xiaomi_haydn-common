@@ -97,4 +97,13 @@
          channels this should be empty. Values is a comma separated channel string and/or channel
          range string like '1-6,11'. -->
     <string translatable="false" name="config_wifiSoftap2gChannelList"></string>
+
+    <!-- Array describing scanning schedule in seconds when device is disconnected and screen is on -->
+    <integer-array name="config_wifiDisconnectedScanIntervalScheduleSec">
+    <item>20</item>
+    </integer-array>
+
+    <!-- Enable concurrent internet connectivity + internet connectivity
+         Note: this is conditional on the device supporting dual concurrent STAs. -->
+    <bool translatable="false" name="config_wifiMultiStaMultiInternetConcurrencyEnabled">true</bool>
 </resources>
